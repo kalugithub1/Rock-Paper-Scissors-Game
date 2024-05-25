@@ -1,0 +1,97 @@
+body{
+    background-color:rgb(25, 25,25);
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    
+}
+
+.move-emojis{
+    height: 50px;
+    width: 50px;
+    opacity: 0.8;
+    border-radius: 50px;
+    
+    
+}
+
+.select-buttons{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid aqua;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+.player-result{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+.game-moves{
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.final-scores{
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.clear-scores-button{
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 20px; 
+    border-radius: 10px;
+    border: none;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.clear-scores-button:hover{
+    background-color: black;
+    color: aqua;
+
+}
+
+.title{
+    border-bottom: 2px solid aqua;
+    border-top: 2px solid aqua;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    color: aqua;
+}
+
+.title:hover{
+    background-color: black;
+    
+    
+}
+
+.frame{
+    border: 1px solid aqua;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: linear-gradient(to right bottom,grey,black);
+    box-shadow: 10px 10px 5px aqua inset;
+}
